@@ -2,3 +2,4 @@ arr = [1,2,3,4,5,6,7,8,9,10,13,17,18,19,20,21,22,24,25,26,27,28,29,30,32,33,35,3
 k = 8
 
 print(sorted(list(set(range(sorted(arr)[-1]+(k+1)))-set(arr)))[k])
+print(k, arr, k)
